@@ -1,0 +1,40 @@
+/*** Varibles ***/
+
+:root {
+  --button-color: #ff6565;
+  --color-letters: white;
+}
+
+/* ============================== */
+
+body {
+  background-image: url(images/headphones_hero_1.jpg);
+  color: var(--color-letters);
+}
+
+button {
+  background-color: var(--button-color);
+  color: var(--color-letters);
+}
+
+/*** Header Section ***/
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.container .nav-section {
+  display: inline-flex;
+  flex-direction: row;
+}
