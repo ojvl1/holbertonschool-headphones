@@ -1,40 +1,60 @@
-/*** Varibles ***/
+/* Variables */
 
 :root {
-  --button-color: #ff6565;
-  --color-letters: white;
+  --color-white: #ffffff;
+  --btn-color: #ff6565;
 }
 
-/* ============================== */
+/* ========= */
 
-body {
+header {
   background-image: url(images/headphones_hero_1.jpg);
-  color: var(--color-letters);
+  object-fit: cover;
+  position: center;
+  width: 100%;
+  height: 800px;
 }
 
-button {
-  background-color: var(--button-color);
-  color: var(--color-letters);
-}
-
-/*** Header Section ***/
-
-ul {
+li {
   list-style-type: none;
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: var(--color-white);
 }
+
+p {
+  color: var(--color-white);
+  width: 300px;
+}
+
+h1 {
+  color: var(--color-white);
+}
+
+button {
+  color: var(--color-white);
+  background-color: var(--btn-color);
+  padding: 12px;
+  padding-left: 10px;
+  border: none;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/*** Header ***/
 
 .container {
   display: flex;
-  justify-content: space-around;
-  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.container .nav-section {
-  display: inline-flex;
+.header-container {
+  display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
