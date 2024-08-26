@@ -1,0 +1,408 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+}
+
+.main-part {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./images/headphones_hero_1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-part-content {
+  height: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.logo img {
+  width: 200px;
+  height: auto;
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  all: unset;
+}
+
+ul li a {
+  all: unset;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+ul li a:hover {
+  color: #ff6565;
+}
+
+ul li a:hover {
+  color: #ff6565;
+}
+
+.main {
+  height: 50%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.main-cta {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-cta h1,
+.main-cta h3 {
+  text-align: center;
+}
+
+.call-to-action {
+  all: unset;
+  background-color: #ff6565;
+  padding: 20px 40px;
+  border-radius: 25px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.call-to-action:hover {
+  opacity: 0.9;
+}
+
+.call-to-action:active {
+  opacity: 0.9;
+}
+.call-to-action a {
+  all: unset;
+}
+
+.main-paragraph {
+}
+
+.main-paragraph p {
+  text-align: center;
+}
+
+.section-pentagon {
+  background-image: url("./images/headphones_hero_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.section-container {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-content {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-desc {
+  width: 50%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-desc h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.section-parag p {
+  text-align: center;
+}
+
+.section-graphique {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  height: 40%;
+}
+
+.paragraph {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.pentagon-container {
+  position: relative;
+}
+
+.pentagon-container h3 {
+  position: absolute;
+  top: 45%;
+  font-size: 32px;
+}
+
+.pentagon-container p {
+  position: absolute;
+  top: 65%;
+}
+
+.paragraph .pentagon {
+  width: 200px;
+  height: auto;
+}
+
+.paragraph p {
+  text-align: center;
+}
+
+.color h1,
+.color h3,
+.color p {
+  color: black;
+}
+
+.contact-section {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-content {
+  height: 80%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.form-container {
+  height: 50%;
+  width: 50%;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+form input {
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid rgb(46, 46, 46);
+}
+
+form input::placeholder {
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.footer {
+  background-color: #071629;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.footer-content {
+  height: 60%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socialmedia-container {
+  display: flex;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.f-bg {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  margin-right: 20px;
+}
+
+.f-bg i {
+  position: absolute;
+  top: 38%;
+  left: 38%;
+  color: #071629;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  .main {
+    width: 95%;
+  }
+
+  .nav-bar {
+    width: 95%;
+  }
+
+  .section-container {
+    height: 100vh;
+  }
+
+  .section-desc {
+    width: 80%;
+  }
+
+  .section-graphique {
+    height: 80%;
+  }
+
+  .paragraph {
+    width: 50%;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .main {
+    height: 70%;
+  }
+
+  .nav-bar {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .nav-bar .menu ul {
+    flex-direction: column;
+    display: none;
+  }
+
+  .nav-bar .menu ul li {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .berger-menu {
+    position: fixed;
+    top: 30px;
+    left: 20px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+
+  .berger-menu span {
+    border: 2px solid white;
+    height: 2px;
+  }
+
+  .berger-menu span:nth-child(1) {
+    width: 40px;
+  }
+
+  .berger-menu span:nth-child(2) {
+    width: 20px;
+  }
+
+  .berger-menu span:nth-child(3) {
+    width: 30px;
+  }
+
+  .close-menu {
+    position: fixed;
+    top: 30px;
+    left: 20px;
+    height: 40px;
+    width: 40px;
+    display: none;
+    justify-content: center;
+  }
+
+  .close-menu span {
+    border: 2px solid white;
+  }
+
+  .close-menu span:nth-child(1) {
+    transform: rotate(45deg);
+  }
+
+  .close-menu span:nth-child(2) {
+    transform: rotate(-45deg);
+  }
+
+  .section-content {
+    height: 90%;
+  }
+
+  .section-desc {
+    height: 25%;
+  }
+
+  .section-graphique {
+    height: 80%;
+  }
+
+  .section-container {
+    height: 150vh;
+  }
+
+  .paragraph {
+    width: 100%;
+  }
+
+  .paragraph .pentagon {
+    width: 180px;
+  }
+
+  .footer-content .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
